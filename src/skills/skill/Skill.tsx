@@ -1,7 +1,6 @@
 import React from 'react';
 import style from './Skill.module.css'
 
-
 type SkillType = {
     title: string
     description: string

@@ -10,7 +10,7 @@ export const Contacts = () => {
                     <h2 className={style.title}>Contact</h2>
                     <form className={style.contact} action="#" autoComplete={'on'}>
                         <input className={style.input} type="text" placeholder={"What's your name?"} required/>
-                        <input className={style.input} type="text" placeholder={"Your Email"} required/>
+                        <input className={style.input} type="email" placeholder={"Your Email"} required/>
                         <textarea className={style.textArea} placeholder={"Let's chat (:"} required></textarea>
                     </form>
                     <button className={style.button}>Submit</button>

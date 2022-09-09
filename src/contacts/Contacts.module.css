@@ -4,13 +4,13 @@
 }
 
 .input {
-    width: 320px;
+    width: 99%;
     height: 30px;
 }
 
 .button {
     margin-top: 20px;
-    height: 30px;
+    height: 35px;
     width: 95px;
     border: 1px solid #9a99d9;
     cursor: pointer;
@@ -21,15 +21,16 @@
     justify-content: space-between;
     display: flex;
     align-items: center;
-    width: 50%;
+    min-width: 50%;
     height: 450px;
     border: 2px solid #9a99d9;
+    padding: 0 20px 0 20px;
 }
 
 .textArea {
     resize: none;
-    min-width: 320px;
-    min-height: 120px;
+    width: 99%;
+    min-height: 120px
 }
 
 .contact {
@@ -38,7 +39,8 @@
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    height: 250px;
+    width: 85%;
+    height: 245px;
     border: 2px solid #9a99d9;
 }
 

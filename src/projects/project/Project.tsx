@@ -4,16 +4,17 @@ import style from './Project.module.css'
 type ProjectType = {
     title: string
     description: string
+    linkProject: string
 }
 
 export const Project = (props: ProjectType) => {
     return (
-        <div className={style.project}>
-            <div className={style.picture}>
-                <button className={style.button}>Watch</button>
-            </div>
-            <h4 className={style.title}>{props.title}</h4>
-            <p className={style.description}>{props.description}</p>
+        <div className={style.projectBlock}>
+            <a className={style.pictureBlock}
+               href={props.linkProject}
+               target="_blank"></a>
+            <h3 className={style.titleBlock}>{props.title}</h3>
+            <p className={style.descriptionBlock}>{props.description}</p>
         </div>
-    );
+    )
 };

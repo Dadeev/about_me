@@ -1,38 +1,38 @@
-.project {
+.projectBlock {
+    width: 400px;
+    height: 500px;
+    background-color: #181717;
+    border-radius: 20px;
+
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 300px;
-    height: 250px;
-    background-color: burlywood;
-}
-
-.picture {
-    display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px;
-    width: 100%;
-    background-color: #f3fa89;
+}
+
+.pictureBlock {
+    width: 80%;
+    height: 60%;
+    border-radius: 12px;
     background-size: cover;
     background-position: center;
+    background-image: url(https://celes.club/uploads/posts/2022-05/1652081614_5-celes-club-p-samurai-art-krasivo-6.jpg);
 }
 
-.button {
-    width: 130px;
-    height: 35px;
-    font-size: 17px;
-    cursor: pointer;
-
+.titleBlock {
+    color: #ff014f;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
-.description {
-    width: 180px;
-    height: 30px;
-    background-color: beige;
-}
+.descriptionBlock {
+    color: #c4cfde;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    display: block;
 
-.title {
-    margin: 15px 0 0 0;
 }

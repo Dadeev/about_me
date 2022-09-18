@@ -8,12 +8,17 @@ export const Projects = () => {
     return (
         <div className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <Title subTitle={'Visit my portfolio and keep your feedback'} title={'My Projects'}/>
+                <Title subTitle={'Visit my projects and keep your feedback'} title={'My Projects'}/>
                 <div className={style.projects}>
-                    <Project title={'Social network'} description={'very cool'}/>
-                    <Project title={'TodoList'} description={'very cool, too'}/>
-                    <Project title={'Samurai way'} description={'yoo'}/>
-                    <Project title={'SpaceX'} description={'how is it possible? :3'}/>
+                    <Project title={'Social network'}
+                             description={'very cool'}
+                             linkProject={'https://github.com/Dadeev/samurai-way'}/>
+                    <Project title={'SpaceX'}
+                             description={'very cool too'}
+                             linkProject={'https://github.com/Dadeev/homeworks-by-ignat'}/>
+                    <Project title={'Social network'}
+                             description={'Trello'}
+                             linkProject={'https://github.com/Dadeev/it-incubator-todolist-ts'}/>
                 </div>
             </div>
         </div>

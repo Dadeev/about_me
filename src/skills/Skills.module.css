@@ -19,3 +19,9 @@
     width: 100%;
     border: 1px solid;
 }
+
+@media screen and (max-width: 627px) {
+    .skills {
+        justify-content: center;
+    }
+}

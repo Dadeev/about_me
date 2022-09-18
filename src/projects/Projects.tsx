@@ -7,7 +7,8 @@ export const Projects = () => {
     return (
         <div className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <h2 className={style.title}>My projects</h2>
+                <span className={style.spanSubTitle}>Visit my portfolio and keep your feedback</span>
+                <h2 className={style.title}>My Projects</h2>
                 <div className={style.projects}>
                     <Project title={'Social network'} description={'very cool'}/>
                     <Project title={'TodoList'} description={'very cool, too'}/>

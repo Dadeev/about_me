@@ -7,3 +7,9 @@
     height: 100%;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 849px) {
+    .container {
+        justify-content: center;
+    }
+}

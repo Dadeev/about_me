@@ -1,8 +1,9 @@
 .project {
     width: 400px;
     height: 500px;
-    background-color: #181717;
+    background: linear-gradient(145deg, #1e2024, #23272b);
     border-radius: 20px;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
 
     display: flex;
     flex-direction: column;

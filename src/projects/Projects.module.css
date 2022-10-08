@@ -17,9 +17,9 @@
     margin-top: 50px;
 }
 
-@media screen and (max-width: 752px) {
+@media screen and (max-width: 1637px) {
     .projects {
-        justify-content: center;
+        justify-content: space-around;
     }
 }
 

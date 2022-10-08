@@ -9,6 +9,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 30px;
+    margin-top: 50px;
 }
 
 .picture {
@@ -34,4 +36,10 @@
     font-size: 23px;
     line-height: 34px;
     display: block;
+}
+
+@media screen and (max-width: 505px) {
+    .project {
+        width: 100%;
+    }
 }

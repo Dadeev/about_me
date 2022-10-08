@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/CV/static/css/main.648630c2.css",
-    "main.js": "/CV/static/js/main.45d7c03c.js",
+    "main.css": "/CV/static/css/main.f5f9c0f3.css",
+    "main.js": "/CV/static/js/main.bc031702.js",
+    "static/media/1402587587_1757596881.jpg": "/CV/static/media/1402587587_1757596881.b90ac83112999d976fd9.jpg",
+    "static/media/1625746950_32-phonoteka-org-p-krasnii-samurai-art-krasivo-33.jpg": "/CV/static/media/1625746950_32-phonoteka-org-p-krasnii-samurai-art-krasivo-33.869f6022f944acbe927b.jpg",
+    "static/media/1652081614_5-celes-club-p-samurai-art-krasivo-6.jpg": "/CV/static/media/1652081614_5-celes-club-p-samurai-art-krasivo-6.224ae4f456fc02e157be.jpg",
     "index.html": "/CV/index.html",
-    "main.648630c2.css.map": "/CV/static/css/main.648630c2.css.map",
-    "main.45d7c03c.js.map": "/CV/static/js/main.45d7c03c.js.map"
+    "main.f5f9c0f3.css.map": "/CV/static/css/main.f5f9c0f3.css.map",
+    "main.bc031702.js.map": "/CV/static/js/main.bc031702.js.map"
   },
   "entrypoints": [
-    "static/css/main.648630c2.css",
-    "static/js/main.45d7c03c.js"
+    "static/css/main.f5f9c0f3.css",
+    "static/js/main.bc031702.js"
   ]
 }

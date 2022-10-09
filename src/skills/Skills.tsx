@@ -3,16 +3,16 @@ import style from './Skills.module.css'
 import styleContainer from '../common/styles/Container.module.css'
 import {Skill} from "./skill/Skill";
 import {Title} from "../common/components/Title/Title";
-import htmlImage from "../assets/image/732212.png";
-import sassImage from "../assets/image/2560px-Sass_Logo_Color.svg.png";
+import htmlImage from "../assets/image/htmlImage.png";
+import sassImage from "../assets/image/sassImage.svg.png";
 import tsImage from "../assets/image/typescript.png";
 import reactImage from "../assets/image/reactjs.png";
-import reduxImage from "../assets/image/5848309bcef1014c0b5e4a9a.png";
+import reduxImage from "../assets/image/reduxImage.png";
 import storyBookImage
     from "../assets/image/storybook.png";
 import unitTestImage from "../assets/image/unitTest.png";
 import gitImage from "../assets/image/Git-Icon-1788C.png";
-import reactHookFormImage from "../assets/image/react-hook-form.8d771932323cc5482f3a956fab1b2222.svg";
+import reactHookFormImage from "../assets/image/reactHookFormImage.svg";
 
 export const Skills = () => {
     const html = {backgroundImage: `url(${htmlImage})`}

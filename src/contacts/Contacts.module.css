@@ -83,7 +83,8 @@
     outline: none;
     transition: .3s;
     width: 60%;
-    font-family: "Montserrat", sans-serif
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 723px) {

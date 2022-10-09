@@ -9,7 +9,7 @@ import tsImage from "../assets/image/typescript.png";
 import reactImage from "../assets/image/reactjs.png";
 import reduxImage from "../assets/image/5848309bcef1014c0b5e4a9a.png";
 import storyBookImage
-    from "../assets/image/68747470733a2f2f6f70656e636f6c6c6563746976652d70726f64756374696f6e2e73332d75732d776573742d312e616d617a6f6e6177732e636f6d2f30313166633632302d346362322d313165392d613531612d6664626231306234636.png";
+    from "../assets/image/storybook.png";
 import unitTestImage from "../assets/image/unitTest.png";
 import gitImage from "../assets/image/Git-Icon-1788C.png";
 import reactHookFormImage from "../assets/image/react-hook-form.8d771932323cc5482f3a956fab1b2222.svg";

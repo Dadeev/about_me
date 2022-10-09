@@ -16,9 +16,9 @@
 .skill_block:hover .Skill_spanCont {
     background: #000000;
     opacity: 0.9;
-    transition: opacity 0.8s ease-in-out;
-    -webkit-transition: opacity 0.8s ease-in-out;
-    -moz-transition: opacity 0.8s ease-in-out;
+    transition: opacity 0.9s ease-in-out;
+    -webkit-transition: opacity 0.9s ease-in-out;
+    -moz-transition: opacity 0.9s ease-in-out;
 }
 
 .Skill_photo {
@@ -27,7 +27,6 @@
     background-size: contain;
     height: 60px;
     width: 60px;
-    background-image: url("https://dotsality.github.io/portfolio/static/media/sass.8aa78a8393470431c8036541f0708bd7.svg");
 }
 
 .Skill_title {
@@ -49,9 +48,9 @@
     position: absolute;
     width: 100%;
     opacity: 0;
-    transition: opacity 0.8s ease-in-out;
-    -webkit-transition: opacity 0.8s ease-in-out;
-    -moz-transition: opacity 0.8s ease-in-out;
+    transition: opacity 0.9s ease-in-out;
+    -webkit-transition: opacity 0.9s ease-in-out;
+    -moz-transition: opacity 0.9s ease-in-out;
 }
 
 .Skill_description {

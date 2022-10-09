@@ -4,12 +4,13 @@ import style from './Skill.module.css'
 type SkillType = {
     title: string
     description: string
+    style: {backgroundImage: string}
 }
 
 export const Skill = (props: SkillType) => {
     return (
         <div className={style.skill_block}>
-            <div className={style.Skill_photo}></div>
+            <div className={style.Skill_photo} style={props.style}></div>
             <div>
                 <h3 className={style.Skill_title}>{props.title}</h3>
             </div>

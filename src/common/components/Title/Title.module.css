@@ -6,6 +6,20 @@
     color: #c4cfde;
     margin-top: 15px;
     margin-bottom: 0;
+    position: relative;
+}
+
+.title::after{
+    background-color: #888;
+    content: "";
+    height: 1px;
+    left: 50%;
+    margin-top: 10px;
+    top: 80px;
+    position: absolute;
+    -webkit-transform: translate(-50%,50%);
+    transform: translate(-50%,50%);
+    width: 60%;
 }
 
 .spanSubTitle {

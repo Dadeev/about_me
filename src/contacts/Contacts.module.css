@@ -85,3 +85,16 @@
     width: 60%;
     font-family: "Montserrat", sans-serif
 }
+
+@media screen and (max-width: 723px) {
+    .ContactSpan {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 584px) {
+    .contact,
+    .button {
+        width: 95%;
+    }
+}

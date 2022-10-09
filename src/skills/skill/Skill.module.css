@@ -16,9 +16,9 @@
 .skill_block:hover .Skill_spanCont {
     background: #000000;
     opacity: 0.9;
-    transition: opacity 0.9s ease-in-out;
-    -webkit-transition: opacity 0.9s ease-in-out;
-    -moz-transition: opacity 0.9s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
 }
 
 .Skill_photo {
@@ -48,9 +48,9 @@
     position: absolute;
     width: 100%;
     opacity: 0;
-    transition: opacity 0.9s ease-in-out;
-    -webkit-transition: opacity 0.9s ease-in-out;
-    -moz-transition: opacity 0.9s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
 }
 
 .Skill_description {

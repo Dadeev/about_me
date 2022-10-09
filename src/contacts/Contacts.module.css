@@ -2,10 +2,12 @@
     padding: 5% 0;
     background-color: #1e1f21;
 }
+
 .blockContainer {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .contact {
     align-items: center;
     display: flex;
@@ -14,20 +16,23 @@
     width: 60%;
     margin-top: 50px;
 }
+
 .inputs {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
-.InputContainer{
+
+.InputContainer {
     height: 100%;
     position: relative;
     transition: all .3s ease;
     width: 100%;
 }
-.input{
+
+.input {
     background-color: transparent;
-    border: 1px solid hsla(0,0%,100%,.2);
+    border: 1px solid hsla(0, 0%, 100%, .2);
     border-radius: 2px;
     color: #ccc;
     display: block;
@@ -42,10 +47,10 @@
 }
 
 .ContactSpan {
-    background-color: #1d1b19;
+    background-color: #1e1f21;
     color: #888;
     display: inline-block;
-    font-family: Jost,Arial,Helvetica,sans-serif;
+    font-family: Jost, Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin: 0;
     padding: 0 15px;
@@ -53,15 +58,24 @@
     position: absolute;
     text-overflow: ellipsis;
     top: 50%;
-    transform: translate(50%,-50%);
+    transform: translate(50%, -50%);
     transition: all .3s;
+    pointer-events: none;
     user-select: none;
     z-index: 1;
 }
 
+.InputContainer input:focus ~ span,
+.InputContainer input:valid ~ span {
+    left: -26px;
+    top: -3px;
+    transition: .5s;
+    font-size: 12px;
+}
+
 .button {
-    background-color: #1d1b19;
-    border: 1px solid hsla(0,0%,100%,.2);
+    background-color: #1e1f21;
+    border: 1px solid hsla(0, 0%, 100%, .2);
     color: #888;
     font-size: 18px;
     height: 50px;

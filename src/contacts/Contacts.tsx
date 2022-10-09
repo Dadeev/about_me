@@ -15,7 +15,7 @@ export const Contacts = () => {
                             <span className={style.ContactSpan}>Email*</span>
                         </div>
                         <div className={style.InputContainer}>
-                            <input className={style.input} type="email" required/>
+                            <input className={style.input} type="text" required/>
                             <span className={style.ContactSpan}>Name*</span>
                         </div>
                     </div>

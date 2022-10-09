@@ -19,6 +19,7 @@
     flex-wrap: wrap;
     width: 100%;
     border: 1px solid;
+    margin-top: 30px;
 }
 
 @media screen and (max-width: 627px) {

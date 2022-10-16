@@ -8,7 +8,7 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 849px) {
+@media screen and (max-width: 1324px){
     .container {
         justify-content: center;
     }

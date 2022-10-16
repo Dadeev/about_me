@@ -1,15 +1,27 @@
 .mainBlock {
     height: 100vh;
-    background-color: #daaee8;
+    background-color: #1e1f21;
+}
+
+.position {
+    color: #ffffff;
 }
 
 .text {
-    width: 340px;
-    background-color: #f1e9f5;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 62px;
+    font-family: "Montserrat", sans-serif;
+}
+.text span {
+    color: #ff014f;
 }
 
 .photo {
     width: 340px;
     height: 400px;
-    background-color: #f1e9f5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

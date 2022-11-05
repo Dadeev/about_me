@@ -1,4 +1,5 @@
 @import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
 
 
 .contactsBlock {
@@ -29,39 +30,10 @@
           width: 100%;
 
           .input {
-            background-color: transparent;
-            border: 1px solid hsla(0, 0%, 100%, .2);
-            border-radius: 2px;
-            color: #ccc;
-            display: block;
-            font-size: 18px;
-            height: 70px;
-            line-height: 70px;
-            outline: none;
-            padding: 0 20px;
-            transition: all .3s ease;
-            width: 100%;
-            z-index: 3;
+            @include contactInput();
           }
 
           .ContactSpan {
-            background-color: $bagColor;
-            color: #888;
-            display: inline-block;
-            font-family: Jost, Arial, Helvetica, sans-serif;
-            font-size: 20px;
-            margin: 0;
-            padding: 0 15px;
-            pointer-events: none;
-            position: absolute;
-            text-overflow: ellipsis;
-            top: 50%;
-            transform: translate(50%, -50%);
-            transition: all .3s;
-            pointer-events: none;
-            user-select: none;
-            z-index: 1;
-
             @media screen and (max-width: 723px) {
               font-size: 16px;
             }
@@ -84,23 +56,11 @@
         width: 100%;
 
         .input {
-          background-color: transparent;
-          border: 1px solid hsla(0, 0%, 100%, .2);
-          border-radius: 2px;
-          color: #ccc;
-          display: block;
-          font-size: 18px;
-          height: 70px;
-          line-height: 70px;
-          outline: none;
-          padding: 0 20px;
-          transition: all .3s ease;
-          width: 100%;
-          z-index: 3;
+          @include contactInput();
         }
 
         .ContactSpan {
-          background-color: #1e1f21;
+          background-color: $bagColor;
           color: #888;
           display: inline-block;
           font-family: Jost, Arial, Helvetica, sans-serif;

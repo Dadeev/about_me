@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/CV/static/css/main.38a12513.css",
-    "main.js": "/CV/static/js/main.8bf07822.js",
-    "static/media/1402587587_1757596881.jpg": "/CV/static/media/1402587587_1757596881.b90ac83112999d976fd9.jpg",
-    "static/media/sassImage.svg.png": "/CV/static/media/sassImage.svg.aa16d6441e3e941f60c1.png",
-    "static/media/1625746950_32-phonoteka-org-p-krasnii-samurai-art-krasivo-33.jpg": "/CV/static/media/1625746950_32-phonoteka-org-p-krasnii-samurai-art-krasivo-33.869f6022f944acbe927b.jpg",
-    "static/media/1652081614_5-celes-club-p-samurai-art-krasivo-6.jpg": "/CV/static/media/1652081614_5-celes-club-p-samurai-art-krasivo-6.224ae4f456fc02e157be.jpg",
-    "static/media/cat.jpg": "/CV/static/media/cat.8e9125d31c014f10189c.jpg",
-    "static/media/storybook.png": "/CV/static/media/storybook.bc83c756271ecfbf141e.png",
-    "static/media/reactjs.png": "/CV/static/media/reactjs.93a4bdf112404308934d.png",
-    "static/media/Telegram_logo.svg.webp": "/CV/static/media/Telegram_logo.svg.be6948c6962cac4685eb.webp",
-    "static/media/Octocat.png": "/CV/static/media/Octocat.237e2214562c441f67b2.png",
-    "static/media/unitTest.png": "/CV/static/media/unitTest.809768de8350fa5f6a21.png",
-    "static/media/LinkedIn_logo_initials.png": "/CV/static/media/LinkedIn_logo_initials.bb933d6809d6410387a0.png",
-    "static/media/reduxImage.png": "/CV/static/media/reduxImage.b3b939c66aecf7d53967.png",
-    "static/media/htmlImage.png": "/CV/static/media/htmlImage.ff3cf75e3b7cbb4ea77c.png",
-    "static/media/typescript.png": "/CV/static/media/typescript.29073194eeda5803e7f3.png",
-    "static/media/reactHookFormImage.svg": "/CV/static/media/reactHookFormImage.8d771932323cc5482f3a956fab1b2222.svg",
-    "index.html": "/CV/index.html",
-    "main.38a12513.css.map": "/CV/static/css/main.38a12513.css.map",
-    "main.8bf07822.js.map": "/CV/static/js/main.8bf07822.js.map"
+    "main.css": "/about_me/static/css/main.1acc9c95.css",
+    "main.js": "/about_me/static/js/main.383e8014.js",
+    "static/media/1402587587_1757596881.jpg": "/about_me/static/media/1402587587_1757596881.b90ac83112999d976fd9.jpg",
+    "static/media/sassImage.svg.png": "/about_me/static/media/sassImage.svg.aa16d6441e3e941f60c1.png",
+    "static/media/1625746950_32-phonoteka-org-p-krasnii-samurai-art-krasivo-33.jpg": "/about_me/static/media/1625746950_32-phonoteka-org-p-krasnii-samurai-art-krasivo-33.869f6022f944acbe927b.jpg",
+    "static/media/1652081614_5-celes-club-p-samurai-art-krasivo-6.jpg": "/about_me/static/media/1652081614_5-celes-club-p-samurai-art-krasivo-6.224ae4f456fc02e157be.jpg",
+    "static/media/cat.jpg": "/about_me/static/media/cat.8e9125d31c014f10189c.jpg",
+    "static/media/storybook.png": "/about_me/static/media/storybook.bc83c756271ecfbf141e.png",
+    "static/media/reactjs.png": "/about_me/static/media/reactjs.93a4bdf112404308934d.png",
+    "static/media/Telegram_logo.svg.webp": "/about_me/static/media/Telegram_logo.svg.be6948c6962cac4685eb.webp",
+    "static/media/Octocat.png": "/about_me/static/media/Octocat.237e2214562c441f67b2.png",
+    "static/media/unitTest.png": "/about_me/static/media/unitTest.809768de8350fa5f6a21.png",
+    "static/media/LinkedIn_logo_initials.png": "/about_me/static/media/LinkedIn_logo_initials.bb933d6809d6410387a0.png",
+    "static/media/reduxImage.png": "/about_me/static/media/reduxImage.b3b939c66aecf7d53967.png",
+    "static/media/htmlImage.png": "/about_me/static/media/htmlImage.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/typescript.png": "/about_me/static/media/typescript.29073194eeda5803e7f3.png",
+    "index.html": "/about_me/index.html",
+    "static/media/reactHookFormImage.svg": "/about_me/static/media/reactHookFormImage.8d771932323cc5482f3a956fab1b2222.svg",
+    "main.1acc9c95.css.map": "/about_me/static/css/main.1acc9c95.css.map",
+    "main.383e8014.js.map": "/about_me/static/js/main.383e8014.js.map"
   },
   "entrypoints": [
-    "static/css/main.38a12513.css",
-    "static/js/main.8bf07822.js"
+    "static/css/main.1acc9c95.css",
+    "static/js/main.383e8014.js"
   ]
 }
